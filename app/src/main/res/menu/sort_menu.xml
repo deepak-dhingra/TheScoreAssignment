@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/sort_icon"
+        app:showAsAction="ifRoom"
+        android:title="@string/sort">
+        <menu>
+
+            <item
+                android:id="@+id/menuSortAlphabetical"
+                android:title="@string/sort_by_names" />
+            <item
+                android:id="@+id/menuSortWins"
+                android:title="@string/sort_by_wins" />
+            <item
+                android:id="@+id/menuSortLosses"
+                android:title="@string/sort_by_losses" />
+
+
+        </menu>
+    </item>
+</menu>

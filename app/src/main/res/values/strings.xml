@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="team_name">Team Name:</string>
+    <string name="wins">Wins:</string>
+    <string name="losses">Losses:</string>
+    <string name="error_fetching_data">Error Fetching Data. Please swipe down to try again</string>
+    <string name="sort_by_names">Sort by Names</string>
+    <string name="sort_by_wins">Sort by Wins</string>
+    <string name="sort_by_losses">Sort by Losses</string>
+    <string name="sort">Sort</string>
+    <string name="team_members">Team Members</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="position">Position:</string>
+    <string name="number">Number:</string>
+</resources>

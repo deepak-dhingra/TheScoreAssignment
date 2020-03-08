@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/teamListFragment">
+    <fragment
+        android:id="@+id/teamListFragment"
+        android:name="com.challenge.theScore.presentation.fragments.TeamListFragment"
+        android:label="TeamListFragment"
+        tools:layout="@layout/fragment_team_list">
+        <action
+            android:id="@+id/actionToDetailsFragment"
+            app:destination="@id/teamDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teamDetailFragment"
+        android:name="com.challenge.theScore.presentation.fragments.TeamDetailFragment"
+        android:label="TeamDetailFragment"
+        tools:layout="@layout/fragment_team_detail">
+        <argument
+            android:name="teamModel"
+            app:argType="com.challenge.theScore.core.data.TeamsModel" />
+    </fragment>
+</navigation>
