@@ -1,6 +1,4 @@
-# TheScoreAssignment
-
-This is an Android assignment provided by **theScore Inc**.
+# MVVM, Dagger2, Kotlin
 
 **Reference:**
 * MVVM architecture pattern is followed for this assignment.
